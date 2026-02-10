@@ -1,0 +1,15 @@
+# Robots.txt - Centro de Convenciones Holiday Inn Durango
+# Actualizado: 2026-02-10
+
+User-agent: *
+Allow: /
+Disallow: /include/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+
+# Sitemap
+Sitemap: https://centrodeconvencioneshinndgo.com/sitemap.xml
+
+# Crawl-delay (opcional para bots que lo respetan)
+Crawl-delay: 1
+

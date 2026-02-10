@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^centrodeconvencioneshinndgo\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.centrodeconvencioneshinndgo\.com$
+RewriteRule ^/?$ "https\:\/\/centrodeconvencioneshinndgo\.com\/" [R=301,L]
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Página Principal -->
+    <url>
+        <loc>https://centrodeconvencioneshinndgo.com/</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+        <image:image>
+            <image:loc>https://centrodeconvencioneshinndgo.com/images/centro-convenciones-durango.jpg</image:loc>
+            <image:title>Centro de Convenciones Holiday Inn Durango</image:title>
+            <image:caption>El mejor centro de convenciones en Durango para bodas, XV años y eventos empresariales</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Sección Servicios -->
+    <url>
+        <loc>https://centrodeconvencioneshinndgo.com/#servicios</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- Sección Galería -->
+    <url>
+        <loc>https://centrodeconvencioneshinndgo.com/#galeria</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Sección Contacto -->
+    <url>
+        <loc>https://centrodeconvencioneshinndgo.com/#contacto</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- Aviso de Privacidad -->
+    <url>
+        <loc>https://centrodeconvencioneshinndgo.com/aviso-de-privacidad.html</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.30</priority>
+    </url>
+
+    <!-- Mapa del Sitio HTML -->
+    <url>
+        <loc>https://centrodeconvencioneshinndgo.com/sitemap.html</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.40</priority>
+    </url>
+
+</urlset>

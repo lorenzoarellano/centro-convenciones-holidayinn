@@ -1,0 +1,82 @@
+# ==========================
+# Archivos de video (pesados)
+# ==========================
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+video_modal.mp4
+images/*.mp4
+
+# ==========================
+# Logs y archivos de error
+# ==========================
+*.log
+error_log
+include/error_log
+include/php-mailer/error_log
+
+# ==========================
+# Archivos del sistema
+# ==========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================
+# Archivos de IDE/Editor
+# ==========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# ==========================
+# Archivos de respaldo
+# ==========================
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*~
+
+# ==========================
+# Archivos de configuración sensibles
+# ==========================
+config.php
+*.env
+.env
+.env.local
+.env.production
+
+# ==========================
+# Dependencias (si aplica)
+# ==========================
+node_modules/
+vendor/
+bower_components/
+
+# ==========================
+# Archivos compilados SASS (opcional)
+# ==========================
+*.css.map
+*.scss.map
+
+# ==========================
+# Archivos de caché
+# ==========================
+.cache/
+*.cache
