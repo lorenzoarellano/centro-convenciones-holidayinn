@@ -337,7 +337,7 @@
 
 <body>
         <!-- Header -->
-        <header id="header" data-transparent="true" class="header-logo-center">
+        <header id="header" data-transparent="true" class="header-logo-left">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
@@ -361,8 +361,6 @@
                                     <li><a class="lnk-inicio" href="#header">Inicio</a></li>
                                     <li><a class="lnk-acerca-de" href="#acerca-de">Acerca de</a></li>
                                     <li><a class="lnk-servicios" href="#servicios">Servicios</a></li>
-                                </ul>
-                                <ul>
                                     <li><a class="lnk-galeria" href="#galeria">Galería</a></li>
                                     <li><a class="lnk-faq" href="#faq">FAQ</a></li>
                                     <li><a class="lnk-contacto" href="#contacto">Contacto</a></li>
@@ -1101,33 +1099,151 @@
 
 
         <!-- Footer -->
-        <footer id="footer">
-            <div class="footer-content">
+        <footer id="footer" class="footer-professional">
+            <div class="footer-content" style="background: #2c3e50; color: #ecf0f1; padding: 60px 0 30px;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 text-center">
+                        <!-- Columna 1: Acerca de -->
+                        <div class="col-lg-4 col-md-6 mb-4">
                             <div class="widget">
-                                <div class="widget-title">Centro de Convenciones Holiday Inn Durango</div>
-                                <p class="mb-5">Somos el mejor <strong>salón para eventos en Durango</strong><br>
-                                <span class="mr-3"><a class="lnk-inicio" href="#header">Inicio</a></span>
-                                <span class="mr-3"><a class="lnk-acerca-de" href="#acerca-de">Acerca de</a></span>
-                                <span class="mr-3"><a class="lnk-servicios" href="#servicios">Servicios</a></span>
-                                <span class="mr-3"><a class="lnk-galeria" href="#galeria">Gelería</a></span>
-                                <span class="mr-3"><a class="lnk-contacto" href="#contacto">Contacto</a></span>
-                                <span class="mr-3"><a href="aviso-de-privacidad.html">Aviso de privacidad</a></span>
-                                <span><a href="sitemap.html">Mapa del sitio</a></span>
+                                <h4 class="widget-title text-white mb-3" style="border-bottom: 3px solid #f4b74f; display: inline-block; padding-bottom: 10px;">
+                                    <i class="fa fa-building"></i> Centro de Convenciones
+                                </h4>
+                                <p class="text-light mt-3" style="line-height: 1.8;">
+                                    Somos el mejor <strong style="color: #f4b74f;">salón de eventos en Durango</strong> con más de 15 años de experiencia. 
+                                    Especializados en <strong>bodas, XV años, bautizos, graduaciones y convenciones empresariales</strong>.
                                 </p>
+                                <div class="footer-rating mt-3">
+                                    <span class="amarillo" style="color: #f4b74f;">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                    <span class="text-light ml-2">4.9/5 - 127 reseñas</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna 2: Enlaces Rápidos -->
+                        <div class="col-lg-2 col-md-6 mb-4">
+                            <div class="widget">
+                                <h4 class="widget-title text-white mb-3" style="border-bottom: 3px solid #f4b74f; display: inline-block; padding-bottom: 10px;">
+                                    <i class="fa fa-link"></i> Enlaces
+                                </h4>
+                                <ul class="list-unstyled footer-links mt-3" style="line-height: 2.2;">
+                                    <li><a class="text-light lnk-inicio" href="#header" style="transition: 0.3s;"><i class="fa fa-angle-right mr-2" style="color: #f4b74f;"></i>Inicio</a></li>
+                                    <li><a class="text-light lnk-acerca-de" href="#acerca-de" style="transition: 0.3s;"><i class="fa fa-angle-right mr-2" style="color: #f4b74f;"></i>Acerca de Nosotros</a></li>
+                                    <li><a class="text-light lnk-servicios" href="#servicios" style="transition: 0.3s;"><i class="fa fa-angle-right mr-2" style="color: #f4b74f;"></i>Servicios</a></li>
+                                    <li><a class="text-light lnk-galeria" href="#galeria" style="transition: 0.3s;"><i class="fa fa-angle-right mr-2" style="color: #f4b74f;"></i>Galería de Eventos</a></li>
+                                    <li><a class="text-light lnk-faq" href="#faq" style="transition: 0.3s;"><i class="fa fa-angle-right mr-2" style="color: #f4b74f;"></i>Preguntas Frecuentes</a></li>
+                                    <li><a class="text-light lnk-contacto" href="#contacto" style="transition: 0.3s;"><i class="fa fa-angle-right mr-2" style="color: #f4b74f;"></i>Contacto</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Columna 3: Servicios SEO -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="widget">
+                                <h4 class="widget-title text-white mb-3" style="border-bottom: 3px solid #f4b74f; display: inline-block; padding-bottom: 10px;">
+                                    <i class="fa fa-concierge-bell"></i> Eventos
+                                </h4>
+                                <ul class="list-unstyled footer-links mt-3" style="line-height: 2.2;">
+                                    <li><a class="text-light" href="#servicios" style="transition: 0.3s;"><i class="fa fa-heart mr-2" style="color: #ff6b81;"></i>Bodas en Durango</a></li>
+                                    <li><a class="text-light" href="#servicios" style="transition: 0.3s;"><i class="fa fa-crown mr-2" style="color: #ffd93d;"></i>Salón para XV Años</a></li>
+                                    <li><a class="text-light" href="#servicios" style="transition: 0.3s;"><i class="fa fa-baby mr-2" style="color: #6bcfff;"></i>Bautizos y Celebraciones</a></li>
+                                    <li><a class="text-light" href="#servicios" style="transition: 0.3s;"><i class="fa fa-graduation-cap mr-2" style="color: #a8ce50;"></i>Graduaciones</a></li>
+                                    <li><a class="text-light" href="#servicios" style="transition: 0.3s;"><i class="fa fa-building mr-2" style="color: #5f9ea0;"></i>Convenciones Empresariales</a></li>
+                                    <li><a class="text-light" href="#servicios" style="transition: 0.3s;"><i class="fa fa-birthday-cake mr-2" style="color: #ff69b4;"></i>Fiestas Infantiles</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Columna 4: Contacto -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="widget">
+                                <h4 class="widget-title text-white mb-3" style="border-bottom: 3px solid #f4b74f; display: inline-block; padding-bottom: 10px;">
+                                    <i class="fa fa-phone"></i> Contacto
+                                </h4>
+                                <ul class="list-unstyled mt-3" style="line-height: 2;">
+                                    <li class="mb-3">
+                                        <i class="fa fa-map-marker-alt mr-2" style="color: #f4b74f;"></i>
+                                        <strong class="text-white">Dirección:</strong><br>
+                                        <span class="text-light">Blvd Francisco Villa #4315<br>Durango, Dgo. México CP 34234</span>
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-phone mr-2" style="color: #f4b74f;"></i>
+                                        <strong class="text-white">Teléfono:</strong><br>
+                                        <a href="tel:+526188292000" class="text-light" style="text-decoration: none;">+52 (618) 829-2000</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="fab fa-whatsapp mr-2" style="color: #25D366;"></i>
+                                        <strong class="text-white">WhatsApp:</strong><br>
+                                        <a href="https://api.whatsapp.com/send?phone=5216181754276" target="_blank" rel="nofollow" class="text-light" style="text-decoration: none;">+52 618 175 4276</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-envelope mr-2" style="color: #f4b74f;"></i>
+                                        <strong class="text-white">Email:</strong><br>
+                                        <a href="mailto:ventas@centrodeconvencioneshinndgo.com" class="text-light" style="text-decoration: none;">ventas@centrodeconvencioneshinndgo.com</a>
+                                    </li>
+                                </ul>
+                                
+                                <div class="social-icons mt-4">
+                                    <a href="https://www.facebook.com/centrodeconvencioneshinndgo" target="_blank" rel="noopener noreferrer" class="mr-3" style="color: #fff; font-size: 24px; transition: 0.3s;" title="Síguenos en Facebook">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="https://api.whatsapp.com/send?phone=5216181754276" target="_blank" rel="nofollow" class="mr-3" style="color: #25D366; font-size: 24px; transition: 0.3s;" title="Contáctanos por WhatsApp">
+                                        <i class="fab fa-whatsapp-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enlaces Legales -->
+                    <div class="row mt-4 pt-4" style="border-top: 1px solid rgba(236, 240, 241, 0.1);">
+                        <div class="col-12 text-center">
+                            <div class="footer-legal-links" style="font-size: 14px;">
+                                <a href="aviso-de-privacidad.html" class="text-light mr-4" style="transition: 0.3s;">
+                                    <i class="fa fa-shield-alt mr-1" style="color: #f4b74f;"></i>Aviso de Privacidad
+                                </a>
+                                <a href="sitemap.html" class="text-light mr-4" style="transition: 0.3s;">
+                                    <i class="fa fa-sitemap mr-1" style="color: #f4b74f;"></i>Mapa del Sitio
+                                </a>
+                                <a href="sitemap.xml" class="text-light" style="transition: 0.3s;">
+                                    <i class="fa fa-file-code mr-1" style="color: #f4b74f;"></i>XML Sitemap
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="copyright-content">
+
+            <!-- Copyright Bar -->
+            <div class="copyright-content" style="background: #1a252f; padding: 20px 0;">
                 <div class="container">
-                    <div class="copyright-text text-center">&copy; 2020 todos los derechos reservados. Designed by <a class="amarillo2" href="http://thecapibaraweb.com.mx/" target="_blank"> The Capibara Web</a c> </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-left">
+                            <div class="copyright-text" style="color: #95a5a6; font-size: 14px;">
+                                &copy; <span id="currentYear">2026</span> <strong style="color: #f4b74f;">Centro de Convenciones Holiday Inn Durango</strong>. Todos los derechos reservados.
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center text-md-right mt-3 mt-md-0">
+                            <div style="color: #95a5a6; font-size: 13px;">
+                                Diseñado con <i class="fa fa-heart" style="color: #e74c3c;"></i> por 
+                                <a href="http://thecapibaraweb.com.mx/" target="_blank" rel="noopener" style="color: #f4b74f; text-decoration: none; font-weight: 600;">The Capibara Web</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
+
+        <script>
+            // Actualizar año automáticamente
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
         <!-- end: Footer -->
 
         <!-- Modal -->
@@ -1179,24 +1295,93 @@
     <script type="text/javascript" src="plugins/gmap3/gmap3.min.js"></script>
     <script type="text/javascript" src="plugins/gmap3/map-styles.js"></script>
 
-<!-- GetButton.io widget -->
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+52 1 618 175 4276", // WhatsApp number
-            call: "+52 1 618 175 4276", // Call phone number
-            call_to_action: "Contáctanos Aquí", // Call to action
-            button_color: "#A8CE50", // Color of button
-            position: "right", // Position may be 'right' or 'left'
-            order: "whatsapp,call", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+<!-- Botón Flotante de Contacto Personalizado -->
+<div class="contact-float-widget">
+    <div class="contact-cta-text">Contáctanos Aquí</div>
+    <div class="contact-options">
+        <a href="https://api.whatsapp.com/send/?phone=5216181754276&text=Hola,%20deseo%20más%20información%20sobre%20el%20Centro%20de%20Convenciones&type=phone_number&app_absent=0" 
+           target="_blank" 
+           rel="nofollow noopener" 
+           class="contact-option-btn whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <div class="option-text">
+                <span class="option-label">WhatsApp</span>
+                <span class="option-number">618 175 4276</span>
+            </div>
+        </a>
+        <a href="tel:+526181754276" 
+           class="contact-option-btn phone">
+            <i class="fa fa-phone"></i>
+            <div class="option-text">
+                <span class="option-label">Llamar</span>
+                <span class="option-number">618 175 4276</span>
+            </div>
+        </a>
+    </div>
+    <button class="contact-float-btn" aria-label="Abrir opciones de contacto">
+        <i class="fab fa-whatsapp"></i>
+    </button>
+</div>
+
+<script>
+    // Widget de Contacto Flotante Personalizado
+    (function() {
+        const widget = document.querySelector('.contact-float-widget');
+        const mainBtn = widget.querySelector('.contact-float-btn');
+        const options = widget.querySelector('.contact-options');
+        const ctaText = widget.querySelector('.contact-cta-text');
+        let isOpen = false;
+
+        // Toggle opciones
+        mainBtn.addEventListener('click', function() {
+            isOpen = !isOpen;
+            options.classList.toggle('active', isOpen);
+            mainBtn.style.transform = isOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+            
+            // Cambiar icono
+            const icon = mainBtn.querySelector('i');
+            icon.className = isOpen ? 'fa fa-times' : 'fab fa-whatsapp';
+        });
+
+        // Cerrar al hacer clic fuera
+        document.addEventListener('click', function(e) {
+            if (!widget.contains(e.target) && isOpen) {
+                isOpen = false;
+                options.classList.remove('active');
+                mainBtn.style.transform = 'rotate(0deg)';
+                const icon = mainBtn.querySelector('i');
+                icon.className = 'fab fa-whatsapp';
+            }
+        });
+
+        // Mostrar CTA después de 3 segundos
+        setTimeout(function() {
+            ctaText.classList.add('show');
+            
+            // Ocultar después de 5 segundos
+            setTimeout(function() {
+                ctaText.classList.remove('show');
+            }, 5000);
+        }, 3000);
+
+        // Tracking de clics (opcional)
+        widget.querySelectorAll('.contact-option-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                const type = this.classList.contains('whatsapp') ? 'WhatsApp' : 'Teléfono';
+                console.log('Contacto vía ' + type);
+                
+                // Aquí puedes agregar Google Analytics o tracking
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'click', {
+                        'event_category': 'Contacto',
+                        'event_label': type
+                    });
+                }
+            });
+        });
     })();
 </script>
-<!-- /GetButton.io widget -->
+<!-- /Botón Flotante de Contacto -->
 
     <script>
         $(document).ready(function (){

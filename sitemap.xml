@@ -5,41 +5,62 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- Página Principal -->
+    <!-- Página Principal - Centro de Convenciones -->
     <url>
         <loc>https://centrodeconvencioneshinndgo.com/</loc>
         <lastmod>2026-02-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
+        
+        <!-- Imagen Principal del Centro -->
         <image:image>
             <image:loc>https://centrodeconvencioneshinndgo.com/images/centro-convenciones-durango.jpg</image:loc>
             <image:title>Centro de Convenciones Holiday Inn Durango</image:title>
             <image:caption>El mejor centro de convenciones en Durango para bodas, XV años y eventos empresariales</image:caption>
         </image:image>
+        
+        <!-- Imagen: Salón de Bodas -->
+        <image:image>
+            <image:loc>https://centrodeconvencioneshinndgo.com/images/portfolio/salon-bodas-durango.jpg</image:loc>
+            <image:title>Salón para Bodas en Durango</image:title>
+            <image:caption>Elegante salón de bodas con capacidad para 1,150 personas en Durango</image:caption>
+        </image:image>
+        
+        <!-- Imagen: Eventos XV Años -->
+        <image:image>
+            <image:loc>https://centrodeconvencioneshinndgo.com/images/portfolio/xv-anos-durango.jpg</image:loc>
+            <image:title>Salón para XV Años en Durango</image:title>
+            <image:caption>El mejor lugar para celebrar XV años en Durango con jardín para sesión fotográfica</image:caption>
+        </image:image>
+        
+        <!-- Imagen: Salón Gran Salón -->
+        <image:image>
+            <image:loc>https://centrodeconvencioneshinndgo.com/images/portfolio/gran-salon-eventos.jpg</image:loc>
+            <image:title>Gran Salón de Eventos Durango</image:title>
+            <image:caption>Salón principal con capacidad para 1,150 personas, ideal para graduaciones y convenciones</image:caption>
+        </image:image>
+        
+        <!-- Imagen: Jardín de Eventos -->
+        <image:image>
+            <image:loc>https://centrodeconvencioneshinndgo.com/images/portfolio/jardin-eventos.jpg</image:loc>
+            <image:title>Jardín de Eventos en Durango</image:title>
+            <image:caption>Hermoso jardín para ceremonias al aire libre y sesiones fotográficas</image:caption>
+        </image:image>
+        
+        <!-- Imagen: Convenciones Empresariales -->
+        <image:image>
+            <image:loc>https://centrodeconvencioneshinndgo.com/images/portfolio/convenciones-empresariales.jpg</image:loc>
+            <image:title>Centro de Convenciones Empresariales Durango</image:title>
+            <image:caption>Instalaciones profesionales para convenciones, conferencias y eventos corporativos</image:caption>
+        </image:image>
     </url>
 
-    <!-- Sección Servicios -->
+    <!-- Mapa del Sitio HTML -->
     <url>
-        <loc>https://centrodeconvencioneshinndgo.com/#servicios</loc>
+        <loc>https://centrodeconvencioneshinndgo.com/sitemap.html</loc>
         <lastmod>2026-02-10</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.90</priority>
-    </url>
-
-    <!-- Sección Galería -->
-    <url>
-        <loc>https://centrodeconvencioneshinndgo.com/#galeria</loc>
-        <lastmod>2026-02-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.80</priority>
-    </url>
-
-    <!-- Sección Contacto -->
-    <url>
-        <loc>https://centrodeconvencioneshinndgo.com/#contacto</loc>
-        <lastmod>2026-02-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.90</priority>
+        <priority>0.50</priority>
     </url>
 
     <!-- Aviso de Privacidad -->
@@ -48,14 +69,6 @@
         <lastmod>2026-02-10</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.30</priority>
-    </url>
-
-    <!-- Mapa del Sitio HTML -->
-    <url>
-        <loc>https://centrodeconvencioneshinndgo.com/sitemap.html</loc>
-        <lastmod>2026-02-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.40</priority>
     </url>
 
 </urlset>

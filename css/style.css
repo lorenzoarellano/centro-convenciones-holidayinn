@@ -11366,7 +11366,7 @@ div.icon-box:before {
 .icon-box.border {
   border: 0 !important; }
   .icon-box.border .icon {
-    border: 3px solid #333;
+    border: 3px solid #ffd895;
     text-align: center;
     border-radius: 50%;
     background-color: transparent; }
@@ -11378,7 +11378,7 @@ div.icon-box:before {
     border: 0px; }
   .icon-box.border .icon i {
     background-color: transparent !important;
-    color: #333; }
+    color: #ffd895; }
   .icon-box.border.small .icon {
     height: 46px;
     position: absolute;

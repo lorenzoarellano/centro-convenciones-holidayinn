@@ -149,7 +149,7 @@
     align-items: center;
     gap: 10px;
     background: var(--color-primary);
-    color: var(--color-dark);
+    color: #ffffff;
     padding: 16px 35px;
     border-radius: var(--radius-xl);
     font-weight: 600;
@@ -163,7 +163,7 @@
     background: var(--color-primary-dark);
     transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(244, 183, 79, 0.5);
-    color: var(--color-white);
+    color: #ffffff;
 }
 
 .btn-hero-primary i {
@@ -362,7 +362,7 @@ img[src*="promo2022"] {
 #servicios .icon-box .icon {
     width: 70px !important;
     height: 70px !important;
-    background: linear-gradient(135deg, #f4b74f 0%, #c4851a 100%) !important;
+    background: linear-gradient(135deg, #f4b74f 0%, #f4dbb1 100%) !important;
     border-radius: 50% !important;
     display: block !important;
     margin: 0 auto 20px auto !important;
@@ -534,20 +534,36 @@ img[src*="promo2022"] {
     box-shadow: 0 0 0 4px rgba(244, 183, 79, 0.15);
 }
 
-.widget-contact-form .btn {
-    background: var(--color-primary);
-    border: none;
-    padding: 14px 35px;
-    border-radius: var(--radius-xl);
-    font-weight: 600;
-    transition: var(--transition-normal);
-    color: var(--color-dark);
+.widget-contact-form .btn,
+.widget-contact-form button.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--color-primary) !important;
+    color: #ffffff !important;
+    padding: 16px 35px !important;
+    border-radius: var(--radius-xl) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-decoration: none;
+    transition: var(--transition-normal) !important;
+    box-shadow: 0 10px 30px rgba(244, 183, 79, 0.4) !important;
+    border: none !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-.widget-contact-form .btn:hover {
-    background: var(--color-primary-dark);
-    transform: translateY(-2px);
-    color: var(--color-white);
+.widget-contact-form .btn:hover,
+.widget-contact-form button.btn:hover {
+    background: var(--color-primary-dark) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(244, 183, 79, 0.5) !important;
+    color: #ffffff !important;
+}
+
+.widget-contact-form .btn i,
+.widget-contact-form button.btn i {
+    font-size: 20px;
 }
 
 /* ===========================================
@@ -559,19 +575,102 @@ img[src*="promo2022"] {
     transition: var(--transition-normal);
 }
 
+/* Botón light en testimonios */
+.btn.btn-light {
+    border-radius: 50px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn.btn-light:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* ===========================================
+   BOTÓN CTA NAVBAR - Estilo Moderno
+=========================================== */
+#mainMenu nav > ul > li > a.verde,
 a.verde,
 .verde {
-    background: var(--color-primary) !important;
-    color: var(--color-dark) !important;
-    padding: 10px 20px;
-    border-radius: var(--radius-xl);
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%) !important;
+    color: #ffffff !important;
+    padding: 14px 32px !important;
+    border-radius: 50px !important;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    text-transform: none;
+}
+
+a.verde::before,
+.verde::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
 }
 
 a.verde:hover,
 .verde:hover {
-    background: var(--color-primary-dark) !important;
-    color: var(--color-white) !important;
-    transform: scale(1.05);
+    color: #ffffff !important;
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+a.verde:hover::before,
+.verde:hover::before {
+    opacity: 1;
+}
+
+a.verde:active,
+.verde:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
+}
+
+a.verde i,
+.verde i {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+a.verde:hover i,
+.verde:hover i {
+    transform: scale(1.1);
+    animation: pulse-icon 0.5s ease;
+}
+
+@keyframes pulse-icon {
+    0%, 100% { transform: scale(1.1); }
+    50% { transform: scale(1.3); }
+}
+
+/* Responsive del botón CTA */
+@media (max-width: 991px) {
+    a.verde,
+    .verde {
+        padding: 10px 20px;
+        font-size: 13px;
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0;
+    }
 }
 
 /* ===========================================
@@ -779,4 +878,254 @@ textarea:focus {
 
 .amarillo2 {
     color: var(--color-primary-dark) !important;
+}
+
+/* ===========================================
+   BOTÓN FLOTANTE DE CONTACTO PERSONALIZADO
+=========================================== */
+.contact-float-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-family: var(--font-body);
+}
+
+.contact-float-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    animation: pulse-contact 2s infinite;
+}
+
+.contact-float-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+}
+
+.contact-float-btn i {
+    font-size: 28px;
+    color: white;
+}
+
+@keyframes pulse-contact {
+    0% {
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 30px rgba(37, 211, 102, 0.7);
+    }
+    100% {
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    }
+}
+
+.contact-options {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    min-width: 220px;
+}
+
+.contact-options.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.contact-option-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    margin: 5px 0;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.contact-option-btn:hover {
+    background: #f8f9fa;
+    transform: translateX(-5px);
+}
+
+.contact-option-btn.whatsapp {
+    color: #25D366;
+}
+
+.contact-option-btn.phone {
+    color: #007bff;
+}
+
+.contact-option-btn i {
+    font-size: 24px;
+    width: 30px;
+}
+
+.contact-option-btn .option-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-option-btn .option-label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contact-option-btn .option-number {
+    font-size: 12px;
+    color: #666;
+}
+
+.contact-cta-text {
+    position: absolute;
+    bottom: 20px;
+    right: 75px;
+    background: #333;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.contact-cta-text.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contact-cta-text::after {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-float-widget {
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .contact-float-btn {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .contact-float-btn i {
+        font-size: 24px;
+    }
+    
+    .contact-options {
+        right: 0;
+        min-width: 200px;
+    }
+    
+    .contact-cta-text {
+        display: none;
+    }
+}
+
+/* ===========================================
+   FOOTER PROFESIONAL - SEO Optimizado
+=========================================== */
+.footer-professional {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.footer-professional .widget-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.footer-professional .footer-links li {
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.footer-professional .footer-links li:hover {
+    transform: translateX(5px);
+}
+
+.footer-professional .footer-links a:hover {
+    color: #f4b74f !important;
+    text-decoration: none;
+}
+
+.footer-professional .social-icons a:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
+.footer-professional .footer-keywords p {
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.footer-professional .footer-legal-links a:hover {
+    color: #f4b74f !important;
+    text-decoration: underline;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-professional .widget {
+        margin-bottom: 30px;
+    }
+    
+    .footer-professional .footer-keywords {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+    
+    .footer-professional .copyright-content .row > div {
+        text-align: center !important;
+    }
+}
+
+/* Footer Hover Effects */
+.footer-professional a {
+    transition: all 0.3s ease;
+}
+
+.footer-professional .widget-title i {
+    margin-right: 8px;
+    font-size: 16px;
 }
