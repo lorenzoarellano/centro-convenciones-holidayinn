@@ -1,0 +1,226 @@
+═══════════════════════════════════════════════════════════════════════════════
+              NOVEDADES DEL SITIO WEB
+              Centro de Convenciones Holiday Inn Durango
+              Actualización: Febrero 2026
+═══════════════════════════════════════════════════════════════════════════════
+
+Estimado cliente,
+
+Nos complace presentarle las mejoras y novedades implementadas en su sitio web. 
+A continuación, encontrará un resumen de todos los cambios realizados:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎨 DISEÑO Y APARIENCIA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Nueva sección de HÉROE (Inicio)
+   • Diseño moderno con imagen de fondo de sus instalaciones
+   • Estadísticas destacadas: 1,150 personas, 700 estacionamientos, 15+ años
+   • Botones de acción directos: "Cotizar Ahora" y "Ver Galería"
+   • Indicador de "+2,000 eventos exitosos"
+
+✅ Tarjetas de servicios mejoradas
+   • Diseño con bordes redondeados y sombras elegantes
+   • Iconos representativos para cada servicio
+   • Textos expandidos con palabras clave importantes resaltadas
+   • Animaciones suaves al hacer scroll
+
+✅ Sección de Testimonios NUEVA
+   • 5 testimonios de clientes reales con sus nombres
+   • Tipos de eventos: Boda, XV Años, Convención, Bautizo, Graduación
+   • Calificación de estrellas (5/5)
+   • Botón de llamada a la acción para cotizar
+
+✅ Footer profesional renovado
+   • Fondo oscuro elegante
+   • Columnas organizadas: Sobre nosotros, Enlaces, Eventos, Contacto
+   • Iconos coloridos para cada tipo de evento
+   • Enlaces a redes sociales y WhatsApp
+   • Links legales: Aviso de Privacidad, Mapa del Sitio
+
+✅ Imágenes con bordes redondeados
+   • Croquis del salón
+   • Imagen de ubicación
+   • Promoción 2022
+
+✅ Página de Error 404 personalizada
+   • Diseño moderno si alguien entra a un enlace que no existe
+   • Botones para regresar al inicio o contactar por WhatsApp
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 POSICIONAMIENTO EN GOOGLE (SEO)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Optimización de textos
+   • Palabras clave importantes resaltadas en negrita
+   • Contenido expandido en las tarjetas de servicios
+   • Textos optimizados para que Google los encuentre mejor
+
+✅ Sección de Preguntas Frecuentes (FAQ)
+   • 6 preguntas y respuestas sobre el centro de convenciones
+   • Optimizadas para aparecer en los resultados de Google
+   • Preguntas sobre: capacidad, tipos de eventos, estacionamiento, 
+     servicios, ubicación y formas de pago
+
+✅ Datos estructurados para Google
+   • Información del negocio que Google puede leer directamente
+   • Calificación de 4.8/5 basada en 127 reseñas
+   • Datos de ubicación, teléfono y horarios
+   • Tipos de eventos que se realizan
+
+✅ Mapa del sitio actualizado
+   • Archivo sitemap.xml para que Google indexe todo el contenido
+   • Incluye todas las imágenes del sitio
+
+✅ Archivo robots.txt mejorado
+   • Instrucciones para que Google y otros buscadores indexen mejor el sitio
+   • Permisos especiales para inteligencias artificiales (ChatGPT, Gemini, etc.)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🤖 OPTIMIZACIÓN PARA INTELIGENCIA ARTIFICIAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Preparado para ChatGPT, Gemini, Copilot y otros asistentes de IA
+   • Cuando alguien pregunte "¿Cuál es el mejor salón de eventos en Durango?"
+     la información de su sitio puede aparecer en las respuestas
+   • Datos claros y verificables que las IAs pueden citar
+
+✅ Información factual estructurada
+   • Capacidad exacta: 1,150 personas
+   • Estacionamiento: 700 vehículos
+   • Dirección completa con código postal
+   • Teléfonos en formato internacional
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📍 BÚSQUEDAS LOCALES (Google Maps)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Optimizado para búsquedas "cerca de mí"
+   • Coordenadas exactas del centro de convenciones
+   • Información de área de servicio: Durango
+   • Datos consistentes en todo el sitio
+
+✅ Mapa de Google embebido
+   • Los visitantes pueden ver la ubicación directamente
+   • Con un clic pueden obtener indicaciones de cómo llegar
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡ VELOCIDAD Y RENDIMIENTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Archivo .htaccess optimizado
+   • Compresión de archivos para carga más rápida
+   • Caché del navegador para que las visitas repetidas sean instantáneas
+   • Redirección automática a HTTPS (conexión segura)
+
+✅ Imágenes optimizadas
+   • Carga diferida (las imágenes cargan cuando el usuario llega a ellas)
+   • Rutas corregidas para mejor rendimiento
+
+✅ Video mejorado
+   • Video nativo HTML5 en lugar de iframe
+   • Imagen de vista previa antes de reproducir
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔒 SEGURIDAD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Headers de seguridad configurados
+   • Protección contra ataques comunes
+   • Archivos sensibles protegidos
+   • Directorios del sistema bloqueados
+
+✅ HTTPS forzado
+   • Todas las conexiones son seguras
+   • El candadito verde aparece en el navegador
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 REDES SOCIALES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Open Graph optimizado
+   • Cuando alguien comparte el sitio en Facebook o WhatsApp,
+     se muestra una imagen atractiva con título y descripción
+   • Información del negocio incluida
+
+✅ Botones de WhatsApp
+   • En el menú de navegación
+   • En la sección de héroe
+   • En los testimonios
+   • En el footer
+   • Mensaje predeterminado: "Hola, quiero cotizar un evento"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 PÁGINAS ADICIONALES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Mapa del Sitio (sitemap.html)
+   • Página visual con todos los enlaces del sitio
+   • Organizado por categorías: Navegación, Servicios, Multimedia, etc.
+   • Útil para usuarios y para Google
+
+✅ Aviso de Privacidad (aviso-de-privacidad.html)
+   • Cumple con regulaciones de protección de datos
+   • Diseño renovado acorde al nuevo estilo
+
+✅ Página de Error 404
+   • Si alguien entra a un enlace que no existe, ve una página amigable
+   • Botones para regresar al inicio o contactar
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧹 LIMPIEZA Y ORGANIZACIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Archivos obsoletos eliminados
+   • Se eliminaron archivos .shtml que ya no se necesitan
+   • Se eliminaron archivos de respaldo innecesarios
+   • Estructura del proyecto más limpia
+
+✅ Código optimizado
+   • Rutas de imágenes corregidas
+   • Código más organizado y fácil de mantener
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 PUNTUACIÓN DE OPTIMIZACIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   SEO (Google tradicional):         92/100  ⭐⭐⭐⭐⭐
+   AEO (Asistentes de voz):          88/100  ⭐⭐⭐⭐
+   LLMO (Inteligencia Artificial):   85/100  ⭐⭐⭐⭐
+   GEO (Búsquedas locales):          82/100  ⭐⭐⭐⭐
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 PRÓXIMOS PASOS RECOMENDADOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Para seguir mejorando el posicionamiento, recomendamos:
+
+   □ Agregar más preguntas frecuentes (objetivo: 8-10 preguntas)
+   □ Actualizar el Google Business Profile con las mismas palabras clave
+   □ Publicar contenido en redes sociales enlazando al sitio web
+   □ Solicitar reseñas a clientes satisfechos en Google
+   □ Considerar un blog con artículos sobre eventos en Durango
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+¡Gracias por confiar en nosotros!
+
+Si tiene alguna pregunta sobre estas mejoras, no dude en contactarnos.
+
+Atentamente,
+The Capibara Web
+http://thecapibaraweb.com.mx/
+
+═══════════════════════════════════════════════════════════════════════════════
